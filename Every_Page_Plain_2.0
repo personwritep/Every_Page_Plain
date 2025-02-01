@@ -22,8 +22,9 @@ window.addEventListener('DOMContentLoaded', function(){ // CSSデザイン適用
         'display: none !important; } '+
 
         '#ucsContent { width: 930px !important; } '+
+        '#ucsContent::before { display: none; } '+
         '#ucsMainLeft { width: 930px !important; padding: 0 15px !important; } '+
-        '#sorting{ margin: 0 0 4px; } '+
+        '#sorting { margin: 0 0 4px; } '+
         '#sorting ul { display: none; } '+
         '</style>';
 
